@@ -15,6 +15,7 @@ $(function(){
        $('.message').fadetoggle();
     }
 
+
      $('.title').on('mouseover', function() {
        $('.title').hide();
        $('.hovertitle').fadeIn();
@@ -26,12 +27,20 @@ $(function(){
 
      $('.design').on('click', function() {
        $('.dev').toggle();
+       $('.photos').toggle();
        $('.design').toggleClass('red');
      });
 
      $('.development').on('click', function() {
        $('.des').toggle();
+       $('.photos').toggle();
        $('.development').toggleClass('red');
+     });
+
+     $('.photo').on('click', function() {
+       $('.des').toggle();
+       $('.dev').toggle();
+       $('.photo').toggleClass('red');
      });
 
      $('.about').on('click', function() {
@@ -45,6 +54,18 @@ $(function(){
 
      $('.raisable').on('click', function() {
        $('.raisableInfo').fadeIn();
+     });
+
+     $('.nsg').on('click', function() {
+       $('.nsgInfo').fadeIn();
+     });
+
+     $('.calc').on('click', function() {
+       $('.calcInfo').fadeIn();
+     });
+
+     $('.spfa').on('click', function() {
+       $('.spfaInfo').fadeIn();
      });
 
 
