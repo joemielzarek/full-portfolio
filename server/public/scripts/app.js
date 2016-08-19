@@ -32,6 +32,10 @@ $(function(){
        $('.photos').toggle();
        $('.design').toggleClass('red');
        $('.desMessage').toggle();
+       $('.development').toggle();
+       $('.photo').toggle();
+       $('.about').toggle();
+       $('.x').toggle();
      });
 
      $('.development').on('click', function() {
@@ -39,6 +43,10 @@ $(function(){
        $('.photos').toggle();
        $('.development').toggleClass('red');
        $('.devMessage').toggle();
+       $('.design').toggle();
+       $('.photo').toggle();
+       $('.about').toggle();
+       $('.x').toggle();
 
      });
 
@@ -47,6 +55,10 @@ $(function(){
        $('.dev').toggle();
        $('.photo').toggleClass('red');
        $('.photoMessage').toggle();
+       $('.development').toggle();
+       $('.design').toggle();
+       $('.about').toggle();
+       $('.x').toggle();
 
      });
 

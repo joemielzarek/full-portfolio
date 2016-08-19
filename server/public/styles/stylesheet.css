@@ -346,3 +346,9 @@ font-size: 12px;
   text-align: center;
   line-height: 10px;
 }
+
+.x {
+  display: none;
+  padding-right: 5px;
+  color: black;
+}
