@@ -2,7 +2,7 @@ body {
        margin: 0;
        padding: 0;
        background: #EEE;
-       font: 10px/13px 'Rajdhani',sans-serif;
+       font-family: 'Rajdhani',sans-serif;
     }
 
 
@@ -105,8 +105,7 @@ a:hover{
        font-size: 16px;
     }
     body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
-       margin-bottom: -20px;
-       height: 100%;
+       margin-bottom: 0px;
     }
     @media only screen and (max-width : 480px) {
        /* Smartphone view: 1 tile */
@@ -145,20 +144,35 @@ a:hover{
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  width: 80%;
+  display: none;
+  border: 1px solid black;
+}
+
+.raisableInfo {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  width: 80%;
   display: none;
   border: 1px solid black;
 }
 
 .aboutMe{
   text-align: center;
-  margin-left: 10.5%;
-  margin-right: 10.5%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
   display: none;
   border: 1px solid black;
+  width: 80%;
 }
 
 .joePic {
@@ -170,4 +184,37 @@ a:hover{
   width: 25px;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.fullImage {
+    width: 60%;
+    height: auto;
+    border: 1px solid white;
+}
+
+.close {
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
+.hovertitle {
+  display: none;
+  transition: all 0.3s ease-out;
+}
+
+p {
+text-align: center;
+font-size: 12px;
+}
+
+.message {
+  display: none;
+  color: #CF2034;
+}
+
+.title {
+  margin-left: 40%;
+  margin-right: 40%;
+
 }

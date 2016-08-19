@@ -11,7 +11,18 @@ $(function(){
         });
      }
 
+     if($('.dev.red').is(':visible') && $('.des.red').is(':visible')) {
+       $('.message').fadetoggle();
+    }
 
+     $('.title').on('mouseover', function() {
+       $('.title').hide();
+       $('.hovertitle').fadeIn();
+     });
+
+     $('.close').on('click', function() {
+       $(this).parent().fadeOut();
+     });
 
      $('.design').on('click', function() {
        $('.dev').toggle();
@@ -24,13 +35,16 @@ $(function(){
      });
 
      $('.about').on('click', function() {
-       $('.aboutMe').toggle();
+       $('.aboutMe').fadeIn();
        $('.about').toggleClass('red');
      });
 
-
      $('.bandanaJoe').on('click', function() {
-       $('.bandanaJoeInfo').toggle();
+       $('.bandanaJoeInfo').fadeIn();
+     });
+
+     $('.raisable').on('click', function() {
+       $('.raisableInfo').fadeIn();
      });
 
 
