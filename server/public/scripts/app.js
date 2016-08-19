@@ -11,9 +11,7 @@ $(function(){
         });
      }
 
-     if($('.dev.red').is(':visible') && $('.des.red').is(':visible')) {
-       $('.message').fadetoggle();
-    }
+
 
 
      $('.title').on('mouseover', function() {
@@ -25,27 +23,36 @@ $(function(){
        $(this).parent().fadeOut();
      });
 
+     $('.close.aboutx').on('click', function() {
+        $('.about').toggleClass('red');
+     });
+
      $('.design').on('click', function() {
        $('.dev').toggle();
        $('.photos').toggle();
        $('.design').toggleClass('red');
+       $('.desMessage').toggle();
      });
 
      $('.development').on('click', function() {
        $('.des').toggle();
        $('.photos').toggle();
        $('.development').toggleClass('red');
+       $('.devMessage').toggle();
+
      });
 
      $('.photo').on('click', function() {
        $('.des').toggle();
        $('.dev').toggle();
        $('.photo').toggleClass('red');
+       $('.photoMessage').toggle();
+
      });
 
      $('.about').on('click', function() {
        $('.aboutMe').fadeIn();
-       $('.about').toggleClass('red');
+       $('.about').addClass('red');
      });
 
      $('.bandanaJoe').on('click', function() {
@@ -54,6 +61,10 @@ $(function(){
 
      $('.raisable').on('click', function() {
        $('.raisableInfo').fadeIn();
+     });
+
+     $('.streamix').on('click', function() {
+       $('.streamixInfo').fadeIn();
      });
 
      $('.nsg').on('click', function() {
@@ -66,6 +77,22 @@ $(function(){
 
      $('.spfa').on('click', function() {
        $('.spfaInfo').fadeIn();
+     });
+
+     $('.hf').on('click', function() {
+       $('.hfInfo').fadeIn();
+     });
+
+     $('.usps').on('click', function() {
+       $('.uspsInfo').fadeIn();
+     });
+
+     $('.kmb').on('click', function() {
+       $('.kmbInfo').fadeIn();
+     });
+
+     $('.blue').on('click', function() {
+       $('.blueInfo').fadeIn();
      });
 
 

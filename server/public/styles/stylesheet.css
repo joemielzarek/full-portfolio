@@ -3,14 +3,20 @@ body {
        padding: 0;
        background: #EEE;
        font-family: 'Rajdhani',sans-serif;
+
     }
+
+html {
+  min-height: 100%;
+  position: relative;
+}
 
 
 
 .header {
   text-align: center;
   font-size: 14px;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
 }
 
 .nav {
@@ -164,6 +170,18 @@ a:hover{
   border: 1px solid black;
 }
 
+.streamixInfo {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  width: 80%;
+  display: none;
+  border: 1px solid black;
+}
+
 .nsgInfo {
   text-align: center;
   margin-left: 10%;
@@ -189,6 +207,54 @@ a:hover{
 }
 
 .spfaInfo {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  width: 80%;
+  display: none;
+  border: 1px solid black;
+}
+
+.hfInfo {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  width: 80%;
+  display: none;
+  border: 1px solid black;
+}
+
+.uspsInfo {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  width: 80%;
+  display: none;
+  border: 1px solid black;
+}
+
+.kmbInfo {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  width: 80%;
+  display: none;
+  border: 1px solid black;
+}
+
+.blueInfo {
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -229,13 +295,15 @@ a:hover{
 }
 
 .close {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   position: absolute;
-right: 10%;
+right: 9.90%;
   float: right;
   z-index: 1;
+  padding: 10px;
 }
+
 
 .hovertitle {
   display: none;
@@ -256,4 +324,25 @@ font-size: 12px;
   margin-left: 40%;
   margin-right: 40%;
 
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 99%;
+  width: 100%;
+  height: 0;
+}
+
+.kmb, .hf, .usps, .spfa, .calc, .nsg, .streamix, .blue, .raisable, .bandanaJoe {
+  cursor: pointer;
+}
+
+.desMessage, .devMessage, .photoMessage {
+  display: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 10px;
 }
