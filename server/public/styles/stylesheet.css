@@ -275,6 +275,7 @@ a:hover{
   display: none;
   border: 1px solid black;
   width: 80%;
+
 }
 
 .joePic {
@@ -351,4 +352,34 @@ font-size: 12px;
   display: none;
   padding-right: 5px;
   color: black;
+}
+
+
+/* pop-up text */
+
+a span {
+  color:whitesmoke;
+  position:absolute;
+  z-index:2;
+  font-size:11px;
+  background:#CF2034;
+  visibility:hidden;
+  border-radius: 3px;
+  padding: 5px;
+  opacity:0;
+  -o-transition:all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* pop-up text arrow */
+
+
+
+/* text pops up when icon is in hover state */
+
+a:hover span {
+  visibility:visible;
+  opacity:1;
 }
