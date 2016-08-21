@@ -87,6 +87,10 @@ $(function(){
        $('.calcInfo').fadeIn();
      });
 
+     $('.honey').on('click', function() {
+       $('.honeyInfo').fadeIn();
+     });
+
      $('.spfa').on('click', function() {
        $('.spfaInfo').fadeIn();
      });
