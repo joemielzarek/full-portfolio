@@ -116,16 +116,14 @@ a:hover{
     @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
      /* STYLES GO HERE */
      .box {
-        width: 100%;
-        padding-bottom: 100%;
+        width: 50%;
+        padding-bottom: 50%;
      }
 
      .title {
-       display: none;
+       font-size: 20px;
      }
-     .title2 {
-       visibility: visible;
-     }
+
    }
 
     @media only screen and (max-width : 480px) {
