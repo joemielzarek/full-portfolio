@@ -111,5 +111,9 @@ $(function(){
        $('.blueInfo').fadeIn();
      });
 
+     $('.kick').on('click', function() {
+       $('.kickInfo').fadeIn();
+     });
+
 
   });
