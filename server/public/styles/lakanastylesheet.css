@@ -2,7 +2,7 @@ body {
        margin: 0;
        padding: 0;
        background: whitesmoke; /* For browsers that do not support gradients */
-  
+
        font-family: 'Rajdhani',sans-serif;
 
     }
@@ -426,4 +426,37 @@ a span {
 a:hover span {
   visibility:visible;
   opacity:1;
+}
+
+.container {
+text-align: center;
+}
+
+.old1 {
+  margin: 0 auto 0 auto;
+  width: 20%;
+  height: auto;
+  display: inline;
+}
+
+.divider {
+  width: 60%;
+  border-bottom: 1px solid black;
+  margin: 0 auto 0 auto;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h5 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
