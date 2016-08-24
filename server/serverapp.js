@@ -5,6 +5,8 @@ var path = require('path');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
+var lakana = require('./routes/lakana');
+
 
 
 //------------ Middlware ------------//
@@ -12,7 +14,9 @@ app.use(express.static(path.join(__dirname, './public')));
 
 
 //------------ Express Routes ------------//
+app.use('/lakana', lakana);
 app.use('/', index);
+
 
 
 //------------ Set Port & Start Server ------------//
