@@ -13,11 +13,13 @@ $(function(){
 
 
 
-
-     $('.title').on('mouseover', function() {
-       $('.title').hide();
-       $('.hovertitle').fadeIn();
+     $( ".new" ).hover(function() {
+       $(".new2").fadeIn();
      });
+
+
+
+
 
      $('.close').on('click', function() {
        $(this).parent().fadeOut();
