@@ -1,11 +1,16 @@
 body {
        margin: 0;
        padding: 0;
-       background: whitesmoke; /* For browsers that do not support gradients */
-
-       font-family: 'Rajdhani',sans-serif;
+       background-color: white;
+       font-family: 'Roboto', 'arial', sans-serif;
+       color: black;
+       font-weight: lighter;
 
     }
+
+h1 {
+  font-weight: bold;;
+}
 
 html {
   min-height: 100%;
@@ -15,9 +20,27 @@ html {
 
 
 .header {
-  text-align: center;
-  font-size: 14px;
-  padding: 20px auto 10px auto;
+  text-align: left;
+  font-size: 10px;
+  /*padding: 21px auto 30px auto;*/
+  background-color: rgba(255,255,255,.9);
+  width: 100%;
+  position: fixed;
+  right: 0px;
+  z-index: 1;
+  color: rgba(0,175,242,1);
+  border-bottom: 1px solid rgba(0,175,242,1);
+
+
+}
+
+.textTitle {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-weight: bold;
+  display: inline;
+  vertical-align: middle;
+  float: left;
 }
 
 .nav {
@@ -48,9 +71,9 @@ li {
 
 }
 
-a:hover{
+/*a:hover{
   color:#CF2034;
-}
+}*/
 
 
 .link:after {
@@ -66,9 +89,9 @@ a:hover{
   transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
 }
 
-.link:hover:after {
+/*.link:hover:after {
   transform: scale(1);
-}
+}*/
 
 
 
@@ -423,13 +446,16 @@ a span {
 
 /* text pops up when icon is in hover state */
 
-a:hover span {
+/*a:hover span {
   visibility:visible;
   opacity:1;
-}
+}*/
 
 .container {
 text-align: center;
+background-color: white;
+width: 90%;
+margin: 0 auto 0 auto;
 }
 
 .old1 {
@@ -440,12 +466,12 @@ text-align: center;
 }
 
 .divider {
-  width: 60%;
-  border-bottom: 1px solid black;
+  width: 40%;
+  border-bottom: 1px solid rgba(0,175,242,1);
   margin: 0 auto 0 auto;
 }
 
-img {
+.full {
   width: 80%;
   height: auto;
 }
@@ -459,4 +485,53 @@ h5 {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.lakana {
+padding-top: 0;
+margin-top: 0;
+}
+
+img {
+  padding: 20px;
+}
+
+.challenge {
+  height:100vh;
+  vertical-align: middle;
+  position:relative;
+  margin-top: -85px;
+
+}
+
+.challengebox {
+    position: relative;
+    top: 53%;
+    transform: translateY(-50%);
+
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.bug {
+  width: 50px;
+  height: 50px;
+  display: inline;
+  float: right;
+  padding: 10px 20px 10px 0;
+}
+
+.down {
+  width: 50px;
+  height: 50px;
+  margin-top: 100px;
+}
+
+.down2 {
+  width: 50px;
+  height: 50px;
+  margin-top: 0px;
 }
