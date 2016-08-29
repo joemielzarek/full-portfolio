@@ -4,10 +4,10 @@ body {
     background-color: white;
     font-family: 'Quicksand', sans-serif;
     color: black;
+    overflow-x: hidden;
 }
 h1 {
     font-weight: 500;
-    letter-spacing: 2px;
 }
 html {
     min-height: 100%;
@@ -165,4 +165,10 @@ h5 {
     height: 500px;
     width: auto;
     display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .old, .new, .new2 {
+    display: none;
+  }
 }
