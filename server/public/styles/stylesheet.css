@@ -2,7 +2,7 @@ body {
        margin: 0;
        padding: 0;
        background: whitesmoke; /* For browsers that do not support gradients */
-  
+
        font-family: 'Rajdhani',sans-serif;
 
     }
@@ -162,6 +162,18 @@ a:hover{
 
 .red {
   color: #CF2034 !important;
+}
+
+.gitMe {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  width: 80%;
+  display: none;
+  border: 1px solid black;
 }
 
 .bandanaJoeInfo {
@@ -426,4 +438,8 @@ a span {
 a:hover span {
   visibility:visible;
   opacity:1;
+}
+
+.gitText {
+  margin: 20px 50px 20px 50px;
 }

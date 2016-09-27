@@ -27,6 +27,10 @@ $(function(){
         $('.about').toggleClass('red');
      });
 
+     $('.close.gitx').on('click', function() {
+        $('.git').toggleClass('red');
+     });
+
      $('.design').on('click', function() {
        $('.dev').toggle();
        $('.photos').toggle();
@@ -35,6 +39,7 @@ $(function(){
        $('.development').toggle();
        $('.photo').toggle();
        $('.about').toggle();
+       $('.git').toggle();
        $('.x').toggle();
      });
 
@@ -46,6 +51,7 @@ $(function(){
        $('.design').toggle();
        $('.photo').toggle();
        $('.about').toggle();
+       $('.git').toggle();
        $('.x').toggle();
 
      });
@@ -58,6 +64,7 @@ $(function(){
        $('.development').toggle();
        $('.design').toggle();
        $('.about').toggle();
+       $('.git').toggle();
        $('.x').toggle();
 
      });
@@ -65,6 +72,11 @@ $(function(){
      $('.about').on('click', function() {
        $('.aboutMe').fadeIn();
        $('.about').addClass('red');
+     });
+
+     $('.git').on('click', function() {
+       $('.gitMe').fadeIn();
+       $('.git').addClass('red');
      });
 
      $('.bandanaJoe').on('click', function() {
