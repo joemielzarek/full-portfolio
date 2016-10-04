@@ -89,7 +89,8 @@ h6 {
 }
 .thanksHeader {
     color: white;
-    font-weight: 100;
+    font-weight: 500;
+    font-size: 30px;
     padding: 0;
     margin: 10px;
     margin-bottom: 5px;
@@ -123,6 +124,10 @@ a {
         text-align: center;
         font-size: 30px;
         border-radius: 10px;
+    }
+
+    .thanksHeader {
+        margin-top: 40px;
     }
 }
 @media screen and (min-device-width: 722px) and (max-device-width: 1199px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
