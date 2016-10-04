@@ -40,6 +40,7 @@ body {
 
 .front,
 .back {
+  -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
   backface-visibility: hidden;
   position: absolute;
   top: 0;
@@ -56,7 +57,6 @@ body {
   -webkit-box-shadow: 8px 15px 32px 0px rgba(179,179,179,1);
 -moz-box-shadow: 8px 15px 32px 0px rgba(179,179,179,1);
 box-shadow: 8px 15px 32px 0px rgba(179,179,179,1);
-border-radius:1px;
 -moz-animation: bounce 2s infinite;
 -webkit-animation: bounce 2s infinite;
 animation: bounce 2s infinite;
@@ -69,7 +69,6 @@ animation: bounce 2s infinite;
   -webkit-box-shadow: 8px 15px 32px 0px rgba(179,179,179,1);
 -moz-box-shadow: 8px 15px 32px 0px rgba(179,179,179,1);
 box-shadow: 8px 15px 32px 0px rgba(179,179,179,1);
-border-radius:1px;
 }
 
 
