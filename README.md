@@ -32,6 +32,3 @@ $ npm start
 
  - Add additional portfolio samples
  - Adjust git-it section after 30-day challenge
- - Add Code Comments
- - Add Night Mode
-
