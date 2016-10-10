@@ -1,6 +1,6 @@
 # Joe Mielzarek's Portfolio
 
-My portfolio is a responsive site using front end technologies such as JavaScript and jQuery, as well as back end technologies included Node.js and Express.js.
+My portfolio is a responsive site using front end technologies such as JavaScript and jQuery, as well as back end technologies including Node.js and Express.js.
 
 
 ### Viewing
