@@ -18,6 +18,10 @@ html {
   text-align: center;
   font-size: 14px;
   padding: 20px 0 10px 25px;
+  height: 95vh;
+  background: url('https://media.giphy.com/media/yjGdFZ7Gm8JULvamic/giphy.gif');
+  background-size: cover;
+  color: white;
 }
 
 .nav {
@@ -27,7 +31,11 @@ html {
 
 ul {
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  height: 25px;
+  margin-top: -25px;
+  background: rgba(255,255,255,.5);
+
 }
 li {
 
